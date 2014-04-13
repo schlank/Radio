@@ -1,4 +1,4 @@
-# Radio
+# iOSIceCastRadio
 
 Radio is an open-source wrapper to play Icecast Internet radio stations on iOS.
 
@@ -11,8 +11,13 @@ This code was initially written 5 years ago when the iOS SDK was first introduce
 Radio has been recently updated to support
 
 * ARC
-* 64-bit compiles
-* iOS7 audio APIs
+* 64-bit Architectures
+* Uses iOS7 audio APIs
+* CocoaPod Enabled
+
+
+## CocoaPod
+pod 'iOSIceCastRadio', :git => 'https://github.com/schlank/iOSIceCastRadio.git'
 
 ## Usage
 
@@ -37,3 +42,4 @@ Radio is available under the MIT license. See the LICENSE file for more info.
 ## Credits
 
 Created by Hamed Hashemi
+Forked by Philip Leder (http://philipleder.com)

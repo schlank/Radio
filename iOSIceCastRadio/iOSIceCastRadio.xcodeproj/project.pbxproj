@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10CD80D18F9FE55009FF46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10CD80C18F9FE55009FF46C /* Foundation.framework */; };
+		F10CD81B18F9FE55009FF46C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10CD81A18F9FE55009FF46C /* XCTest.framework */; };
+		F10CD81C18F9FE55009FF46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10CD80C18F9FE55009FF46C /* Foundation.framework */; };
+		F10CD81E18F9FE55009FF46C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10CD81D18F9FE55009FF46C /* UIKit.framework */; };
+		F10CD82118F9FE55009FF46C /* libiOSIceCastRadio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10CD80918F9FE55009FF46C /* libiOSIceCastRadio.a */; };
+		F10CD82718F9FE55009FF46C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F10CD82518F9FE55009FF46C /* InfoPlist.strings */; };
+		F10CD82918F9FE55009FF46C /* iOSIceCastRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD82818F9FE55009FF46C /* iOSIceCastRadioTests.m */; };
+		F10CD84718F9FE96009FF46C /* Packet.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD83518F9FE96009FF46C /* Packet.m */; };
+		F10CD84818F9FE96009FF46C /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD83718F9FE96009FF46C /* Queue.m */; };
+		F10CD84918F9FE96009FF46C /* Radio.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD83918F9FE96009FF46C /* Radio.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10CD81F18F9FE55009FF46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10CD80118F9FE55009FF46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10CD80818F9FE55009FF46C;
+			remoteInfo = iOSIceCastRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F10CD80718F9FE55009FF46C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F10CD80918F9FE55009FF46C /* libiOSIceCastRadio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSIceCastRadio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10CD80C18F9FE55009FF46C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F10CD81018F9FE55009FF46C /* iOSIceCastRadio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSIceCastRadio-Prefix.pch"; sourceTree = "<group>"; };
+		F10CD81918F9FE55009FF46C /* iOSIceCastRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSIceCastRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10CD81A18F9FE55009FF46C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F10CD81D18F9FE55009FF46C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F10CD82418F9FE55009FF46C /* iOSIceCastRadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSIceCastRadioTests-Info.plist"; sourceTree = "<group>"; };
+		F10CD82618F9FE55009FF46C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F10CD82818F9FE55009FF46C /* iOSIceCastRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSIceCastRadioTests.m; sourceTree = "<group>"; };
+		F10CD83418F9FE96009FF46C /* Packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packet.h; sourceTree = "<group>"; };
+		F10CD83518F9FE96009FF46C /* Packet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Packet.m; sourceTree = "<group>"; };
+		F10CD83618F9FE96009FF46C /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		F10CD83718F9FE96009FF46C /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		F10CD83818F9FE96009FF46C /* Radio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radio.h; sourceTree = "<group>"; };
+		F10CD83918F9FE96009FF46C /* Radio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radio.m; sourceTree = "<group>"; };
+		F10CD84D18F9FF06009FF46C /* iOSIceCastRadio.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = iOSIceCastRadio.podspec; path = ../../iOSIceCastRadio.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10CD80618F9FE55009FF46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CD80D18F9FE55009FF46C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10CD81618F9FE55009FF46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CD82118F9FE55009FF46C /* libiOSIceCastRadio.a in Frameworks */,
+				F10CD81B18F9FE55009FF46C /* XCTest.framework in Frameworks */,
+				F10CD81E18F9FE55009FF46C /* UIKit.framework in Frameworks */,
+				F10CD81C18F9FE55009FF46C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10CD80018F9FE55009FF46C = {
+			isa = PBXGroup;
+			children = (
+				F10CD83218F9FE96009FF46C /* Classes */,
+				F10CD82218F9FE55009FF46C /* iOSIceCastRadioTests */,
+				F10CD80B18F9FE55009FF46C /* Frameworks */,
+				F10CD80A18F9FE55009FF46C /* Products */,
+				F10CD80F18F9FE55009FF46C /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F10CD80A18F9FE55009FF46C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD80918F9FE55009FF46C /* libiOSIceCastRadio.a */,
+				F10CD81918F9FE55009FF46C /* iOSIceCastRadioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10CD80B18F9FE55009FF46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD80C18F9FE55009FF46C /* Foundation.framework */,
+				F10CD81A18F9FE55009FF46C /* XCTest.framework */,
+				F10CD81D18F9FE55009FF46C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F10CD80F18F9FE55009FF46C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD81018F9FE55009FF46C /* iOSIceCastRadio-Prefix.pch */,
+				F10CD84D18F9FF06009FF46C /* iOSIceCastRadio.podspec */,
+			);
+			name = "Supporting Files";
+			path = iOSIceCastRadio;
+			sourceTree = "<group>";
+		};
+		F10CD82218F9FE55009FF46C /* iOSIceCastRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD82818F9FE55009FF46C /* iOSIceCastRadioTests.m */,
+				F10CD82318F9FE55009FF46C /* Supporting Files */,
+			);
+			path = iOSIceCastRadioTests;
+			sourceTree = "<group>";
+		};
+		F10CD82318F9FE55009FF46C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD82418F9FE55009FF46C /* iOSIceCastRadioTests-Info.plist */,
+				F10CD82518F9FE55009FF46C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F10CD83218F9FE96009FF46C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD83318F9FE96009FF46C /* iOS */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		F10CD83318F9FE96009FF46C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD83418F9FE96009FF46C /* Packet.h */,
+				F10CD83518F9FE96009FF46C /* Packet.m */,
+				F10CD83618F9FE96009FF46C /* Queue.h */,
+				F10CD83718F9FE96009FF46C /* Queue.m */,
+				F10CD83818F9FE96009FF46C /* Radio.h */,
+				F10CD83918F9FE96009FF46C /* Radio.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10CD80818F9FE55009FF46C /* iOSIceCastRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10CD82C18F9FE55009FF46C /* Build configuration list for PBXNativeTarget "iOSIceCastRadio" */;
+			buildPhases = (
+				F10CD80518F9FE55009FF46C /* Sources */,
+				F10CD80618F9FE55009FF46C /* Frameworks */,
+				F10CD80718F9FE55009FF46C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSIceCastRadio;
+			productName = iOSIceCastRadio;
+			productReference = F10CD80918F9FE55009FF46C /* libiOSIceCastRadio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F10CD81818F9FE55009FF46C /* iOSIceCastRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10CD82F18F9FE55009FF46C /* Build configuration list for PBXNativeTarget "iOSIceCastRadioTests" */;
+			buildPhases = (
+				F10CD81518F9FE55009FF46C /* Sources */,
+				F10CD81618F9FE55009FF46C /* Frameworks */,
+				F10CD81718F9FE55009FF46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10CD82018F9FE55009FF46C /* PBXTargetDependency */,
+			);
+			name = iOSIceCastRadioTests;
+			productName = iOSIceCastRadioTests;
+			productReference = F10CD81918F9FE55009FF46C /* iOSIceCastRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10CD80118F9FE55009FF46C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Philip Leder";
+			};
+			buildConfigurationList = F10CD80418F9FE55009FF46C /* Build configuration list for PBXProject "iOSIceCastRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F10CD80018F9FE55009FF46C;
+			productRefGroup = F10CD80A18F9FE55009FF46C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10CD80818F9FE55009FF46C /* iOSIceCastRadio */,
+				F10CD81818F9FE55009FF46C /* iOSIceCastRadioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10CD81718F9FE55009FF46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CD82718F9FE55009FF46C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10CD80518F9FE55009FF46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CD84818F9FE96009FF46C /* Queue.m in Sources */,
+				F10CD84918F9FE96009FF46C /* Radio.m in Sources */,
+				F10CD84718F9FE96009FF46C /* Packet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10CD81518F9FE55009FF46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CD82918F9FE55009FF46C /* iOSIceCastRadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10CD82018F9FE55009FF46C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10CD80818F9FE55009FF46C /* iOSIceCastRadio */;
+			targetProxy = F10CD81F18F9FE55009FF46C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F10CD82518F9FE55009FF46C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10CD82618F9FE55009FF46C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10CD82A18F9FE55009FF46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F10CD82B18F9FE55009FF46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10CD82D18F9FE55009FF46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSIceCastRadio.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSIceCastRadio/iOSIceCastRadio-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F10CD82E18F9FE55009FF46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSIceCastRadio.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSIceCastRadio/iOSIceCastRadio-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F10CD83018F9FE55009FF46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSIceCastRadio/iOSIceCastRadio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSIceCastRadioTests/iOSIceCastRadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F10CD83118F9FE55009FF46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSIceCastRadio/iOSIceCastRadio-Prefix.pch";
+				INFOPLIST_FILE = "iOSIceCastRadioTests/iOSIceCastRadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10CD80418F9FE55009FF46C /* Build configuration list for PBXProject "iOSIceCastRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10CD82A18F9FE55009FF46C /* Debug */,
+				F10CD82B18F9FE55009FF46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10CD82C18F9FE55009FF46C /* Build configuration list for PBXNativeTarget "iOSIceCastRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10CD82D18F9FE55009FF46C /* Debug */,
+				F10CD82E18F9FE55009FF46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F10CD82F18F9FE55009FF46C /* Build configuration list for PBXNativeTarget "iOSIceCastRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10CD83018F9FE55009FF46C /* Debug */,
+				F10CD83118F9FE55009FF46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10CD80118F9FE55009FF46C /* Project object */;
+}
