@@ -85,6 +85,7 @@
 		F10CD85818FA4C5A009FF46C /* RadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
 		F10CD85918FA4C5A009FF46C /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
 		F10CD85A18FA4C5A009FF46C /* iOS Radio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "iOS Radio.xcodeproj"; sourceTree = "<group>"; };
+		F10CD86718FA544E009FF46C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +114,7 @@
 		F10CD80018F9FE55009FF46C = {
 			isa = PBXGroup;
 			children = (
+				F10CD86718FA544E009FF46C /* README.md */,
 				F10CD84E18FA4C5A009FF46C /* Example */,
 				F10CD83218F9FE96009FF46C /* Classes */,
 				F10CD82218F9FE55009FF46C /* iOSIceCastRadioTests */,

@@ -23,11 +23,11 @@ pod 'iOSIceCastRadio', :git => 'https://github.com/schlank/iOSIceCastRadio.git'
 
 You can create an instance of Radio:
 
-	radio = [[Radio alloc] init];
+	radio = [[Radio alloc] initWithDelegate:self andUrl:@"http://stream.radiojavan.com" andUserAgent:@"myRadio"];
 	
 Then connect to an Icecast stream:
 
-	[radio connect:@"http://stream.radiojavan.com" withDelegate:self withGain:(1.0)];
+	[radio connect];
 	
 The example in RadioViewController shows how to use the Radio class and also use the delegate callbacks to update the view, handle interruptions, buffering, connection issues, etc
 
