@@ -17,6 +17,9 @@
 		F10CD84718F9FE96009FF46C /* Packet.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD83518F9FE96009FF46C /* Packet.m */; };
 		F10CD84818F9FE96009FF46C /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD83718F9FE96009FF46C /* Queue.m */; };
 		F10CD84918F9FE96009FF46C /* Radio.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD83918F9FE96009FF46C /* Radio.m */; };
+		F10CD85D18FA4C5A009FF46C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD85118FA4C5A009FF46C /* AppDelegate.m */; };
+		F10CD85E18FA4C5A009FF46C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD85718FA4C5A009FF46C /* main.m */; };
+		F10CD85F18FA4C5A009FF46C /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD85918FA4C5A009FF46C /* RadioViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = F10CD80818F9FE55009FF46C;
 			remoteInfo = iOSIceCastRadio;
+		};
+		F10CD86218FA4C5A009FF46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10CD85A18FA4C5A009FF46C /* iOS Radio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0BDD81B8183AB52F00891D35;
+			remoteInfo = "iOS Radio";
+		};
+		F10CD86418FA4C5A009FF46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10CD85A18FA4C5A009FF46C /* iOS Radio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0BDD81D3183AB52F00891D35;
+			remoteInfo = "iOS RadioTests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -58,6 +75,16 @@
 		F10CD83818F9FE96009FF46C /* Radio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radio.h; sourceTree = "<group>"; };
 		F10CD83918F9FE96009FF46C /* Radio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radio.m; sourceTree = "<group>"; };
 		F10CD84D18F9FF06009FF46C /* iOSIceCastRadio.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = iOSIceCastRadio.podspec; path = ../../iOSIceCastRadio.podspec; sourceTree = "<group>"; };
+		F10CD85018FA4C5A009FF46C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F10CD85118FA4C5A009FF46C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F10CD85318FA4C5A009FF46C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F10CD85418FA4C5A009FF46C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F10CD85518FA4C5A009FF46C /* iOS Radio-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS Radio-Info.plist"; sourceTree = "<group>"; };
+		F10CD85618FA4C5A009FF46C /* iOS Radio-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS Radio-Prefix.pch"; sourceTree = "<group>"; };
+		F10CD85718FA4C5A009FF46C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F10CD85818FA4C5A009FF46C /* RadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
+		F10CD85918FA4C5A009FF46C /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
+		F10CD85A18FA4C5A009FF46C /* iOS Radio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "iOS Radio.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +113,7 @@
 		F10CD80018F9FE55009FF46C = {
 			isa = PBXGroup;
 			children = (
+				F10CD84E18FA4C5A009FF46C /* Example */,
 				F10CD83218F9FE96009FF46C /* Classes */,
 				F10CD82218F9FE55009FF46C /* iOSIceCastRadioTests */,
 				F10CD80B18F9FE55009FF46C /* Frameworks */,
@@ -163,6 +191,41 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
+		F10CD84E18FA4C5A009FF46C /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD84F18FA4C5A009FF46C /* iOS Radio */,
+				F10CD85A18FA4C5A009FF46C /* iOS Radio.xcodeproj */,
+			);
+			name = Example;
+			path = ../Example;
+			sourceTree = "<group>";
+		};
+		F10CD84F18FA4C5A009FF46C /* iOS Radio */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD85018FA4C5A009FF46C /* AppDelegate.h */,
+				F10CD85118FA4C5A009FF46C /* AppDelegate.m */,
+				F10CD85218FA4C5A009FF46C /* InfoPlist.strings */,
+				F10CD85418FA4C5A009FF46C /* Images.xcassets */,
+				F10CD85518FA4C5A009FF46C /* iOS Radio-Info.plist */,
+				F10CD85618FA4C5A009FF46C /* iOS Radio-Prefix.pch */,
+				F10CD85718FA4C5A009FF46C /* main.m */,
+				F10CD85818FA4C5A009FF46C /* RadioViewController.h */,
+				F10CD85918FA4C5A009FF46C /* RadioViewController.m */,
+			);
+			path = "iOS Radio";
+			sourceTree = "<group>";
+		};
+		F10CD85B18FA4C5A009FF46C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD86318FA4C5A009FF46C /* iOS Radio.app */,
+				F10CD86518FA4C5A009FF46C /* iOS RadioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,6 +283,12 @@
 			mainGroup = F10CD80018F9FE55009FF46C;
 			productRefGroup = F10CD80A18F9FE55009FF46C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F10CD85B18FA4C5A009FF46C /* Products */;
+					ProjectRef = F10CD85A18FA4C5A009FF46C /* iOS Radio.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F10CD80818F9FE55009FF46C /* iOSIceCastRadio */,
@@ -227,6 +296,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F10CD86318FA4C5A009FF46C /* iOS Radio.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iOS Radio.app";
+			remoteRef = F10CD86218FA4C5A009FF46C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F10CD86518FA4C5A009FF46C /* iOS RadioTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS RadioTests.xctest";
+			remoteRef = F10CD86418FA4C5A009FF46C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F10CD81718F9FE55009FF46C /* Resources */ = {
@@ -244,6 +330,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10CD85F18FA4C5A009FF46C /* RadioViewController.m in Sources */,
+				F10CD85E18FA4C5A009FF46C /* main.m in Sources */,
+				F10CD85D18FA4C5A009FF46C /* AppDelegate.m in Sources */,
 				F10CD84818F9FE96009FF46C /* Queue.m in Sources */,
 				F10CD84918F9FE96009FF46C /* Radio.m in Sources */,
 				F10CD84718F9FE96009FF46C /* Packet.m in Sources */,
@@ -273,6 +362,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				F10CD82618F9FE55009FF46C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F10CD85218FA4C5A009FF46C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10CD85318FA4C5A009FF46C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -427,6 +524,7 @@
 				F10CD82E18F9FE55009FF46C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F10CD82F18F9FE55009FF46C /* Build configuration list for PBXNativeTarget "iOSIceCastRadioTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +533,7 @@
 				F10CD83118F9FE55009FF46C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

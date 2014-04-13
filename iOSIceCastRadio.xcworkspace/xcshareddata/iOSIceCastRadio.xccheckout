@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>66D01B72-194F-44C0-90AB-D78464460E31</string>
+	<string>F133F75A-A44A-44D3-A067-1CFE50840BBB</string>
 	<key>IDESourceControlProjectName</key>
 	<string>iOSIceCastRadio</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0107DD72-4291-4DB8-A2A8-56AB81DFD65C</key>
+		<key>15A26046-1DBB-4CFB-972A-3DB4C23A51F5</key>
 		<string>https://github.com/schlank/iOSIceCastRadio.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iOSIceCastRadio.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0107DD72-4291-4DB8-A2A8-56AB81DFD65C</key>
+		<key>15A26046-1DBB-4CFB-972A-3DB4C23A51F5</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0107DD72-4291-4DB8-A2A8-56AB81DFD65C</string>
+	<string>15A26046-1DBB-4CFB-972A-3DB4C23A51F5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0107DD72-4291-4DB8-A2A8-56AB81DFD65C</string>
+			<string>15A26046-1DBB-4CFB-972A-3DB4C23A51F5</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iOSIceCastRadioFramework</string>
+			<string>iOSIceCastRadio</string>
 		</dict>
 	</array>
 </dict>
