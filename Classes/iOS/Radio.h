@@ -76,7 +76,8 @@
 	int attemptCount;
 	NSObject<RadioDelegate> *radioDelegate;
 	BOOL _stopped;
-	NSString *connectionUserAgent;
+    NSString *_connectionUserAgent;
+    
 }
 
 - (id)initWithDelegate:(NSObject <RadioDelegate> *)delegate andUrl:(NSString *)serverUrl andUserAgent:(NSString*)userAgent;

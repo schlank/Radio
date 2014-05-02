@@ -44,7 +44,7 @@
     {
         _url = serverUrl;
         radioDelegate = delegate;
-        connectionUserAgent = userAgent;
+        _connectionUserAgent = userAgent;
 		_playing = NO;
 		_stopped = YES;
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleInterruption:) name:AVAudioSessionInterruptionNotification object:[AVAudioSession sharedInstance]];
@@ -55,7 +55,7 @@
 
 - (BOOL)connect
 {
-    if(connectionUserAgent==nil)
+    if(_connectionUserAgent==nil)
     {
         [self updateUserAgent:@"WON-F4W"];
     }
@@ -110,7 +110,7 @@
 	[req setCachePolicy:NSURLCacheStorageNotAllowed];
 	[req setValue:@"1" forHTTPHeaderField:@"icy-metadata"];
 	[req setValue:@"no-cache" forHTTPHeaderField:@"Cache-Control"];
-	[req setValue:connectionUserAgent forHTTPHeaderField:@"User-Agent"];
+	[req setValue:_connectionUserAgent forHTTPHeaderField:@"User-Agent"];
 	[req setTimeoutInterval:10];
 	conn = [NSURLConnection connectionWithRequest:req delegate:self];
     
@@ -492,7 +492,7 @@ static void PacketsProc(void *inClientData,
 
 - (void)updateUserAgent:(NSString *)userAgent
 {
-    connectionUserAgent = userAgent;
+    _connectionUserAgent = userAgent;
 }
 
 - (void)pause
@@ -621,7 +621,8 @@ static void PacketsProc(void *inClientData,
     return [_url copy]; //copy, no references.
 }
 
-- (void)dealloc {
+- (void)dealloc
+{
 	AudioFileStreamClose(audioStreamID);
 	AudioQueueStop(audioQueue, YES);
 	AudioQueueReset(audioQueue);
